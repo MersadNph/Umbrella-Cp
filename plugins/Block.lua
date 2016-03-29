@@ -1,12 +1,12 @@
 local function run(msg,matches)
 if matches[1] == "+" and matches[2] then
 block_user("user#id"..matches[2], ok_cb, false)
-return "User "..matches[2].." has been Blocked"
+return "User "..matches[2].." بلاک شد"
 end
 
 if matches[1] == "-" and matches[2] then
 unblock_user("user#id"..matches[2], ok_cb, false)
-  return "User "..matches[2].." has been Unblocked"
+  return "یوزر "..matches[2].." انبلاک شد"
 end
 end
 
