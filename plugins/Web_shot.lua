@@ -42,15 +42,14 @@ local function run(msg, matches)
       send_photo_from_url(receiver, imgurl)
    end
 end
---By ArashEmp :)
 
 return {
    description = "Send an screenshot of a website.",
    usage = {
-      "/webshot [url]: Send Screen Shot From Url."
+      "/web [url]: Send Screen Shot From Url."
    },
    patterns = {
-      "^[!#@/](webshot) (https?://[%w-_%.%?%.:/%+=&]+)$",
+      "^[Ww](eb) (https?://[%w-_%.%?%.:/%+=&]+)$",
    },
    run = run
 }
