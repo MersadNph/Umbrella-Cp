@@ -49,7 +49,7 @@ return {
       "/web [url]: Send Screen Shot From Url."
    },
    patterns = {
-      "^[Ww](eb) (https?://[%w-_%.%?%.:/%+=&]+)$",
+      "^[Ww]eb (https?://[%w-_%.%?%.:/%+=&]+)$",
    },
    run = run
 }
